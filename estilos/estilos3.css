@@ -1,0 +1,81 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+input[type="submit"] {
+    margin-left: 20px;
+    display: inline-block;
+    padding: 13px;
+    border: none;
+    color: #fff;
+    background: tomato;
+    font: bold;
+    width: 150px;
+    cursor: pointer;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+li{
+    margin: 10px;
+    text-align: justify;
+}
+
+
+body {
+ background-image: linear-gradient(to right,#2c3e50,black,#374D71);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  min-height: 100vh;
+}
+.container{
+  width: 90%;
+  padding: 10px 40px;
+}
+.container .swiper-container{
+  width: 100%;
+  height: 100%;
+}
+.container .swiper-slide {
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  border-radius: 15px;
+  text-align: start;
+  box-shadow: black;
+ 
+}
+.container .swiper-slide img{
+   display: block;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+.container .swiper-slide .card-description{
+    padding:1rem 1rem;
+}
+.container .swiper-slide .card-title,.container .swiper-slide .card-text{
+   margin-bottom: .5rem;
+}
+.container .swiper-slide .card-link{
+   text-align: center;
+  
+}
+.container .swiper-slide .card-link a{
+    text-decoration: none;
+    color: #1d6ce2;
+}
+.swiper-button-next{
+    right: 26px !important;
+    color: black;
+}
+.swiper-button-prev{
+    left: 26px !important;
+}
